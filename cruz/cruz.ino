@@ -18,7 +18,7 @@ void loop(){
 
 void RandLed(){
 
-// Esta secuencia enciende todo un color especificado
+// Esta secuencia enciende de un color especificado formando una cruz
 // Solo debo de cambiar para encender la componente en "digitalWrite(Filas[1], HIGH);" 0=rojo, 1=azul y 2=amarillo
   digitalWrite(Filas[2], HIGH);
   digitalWrite(Columnas[0], HIGH);
@@ -26,7 +26,7 @@ void RandLed(){
   digitalWrite(Columnas[1], HIGH);
   digitalWrite(Filas[2], HIGH);
   digitalWrite(Columnas[5], HIGH);
-  digitalWrite(Filas[2], HIGH);
+  digitalWrite(Filas[2], HIGH);ss
   digitalWrite(Columnas[7], HIGH);
   digitalWrite(Filas[2], HIGH);
   digitalWrite(Columnas[0], HIGH);
